@@ -1,0 +1,62 @@
+
+body {
+    display:grid;
+    grid-template-rows:15% 10% auto 10%;
+    grid-row-gap:0.5%;
+    width:90%;
+    font-family: 'Georgia', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(27, 27, 27);
+    color:rgb(243, 217, 49);
+}
+
+
+h1 {
+    text-align:center;
+    font-size:4em;
+    margin:0px;
+    grid-row:1;
+}
+
+p {
+    grid-row:3;
+    text-align:center;
+    font-size:1.5em;
+    outline: 1px solid yellow;
+    padding:3%;
+}
+
+nav > ul > li {
+    display:block;
+    grid-row:2;
+    font-size:1.2em;
+    float:left;
+    width:20%;
+    outline:1px solid yellow;
+}
+
+footer {
+    text-align:center;
+    grid-row:4;
+}
+
+a:link{
+    color:rgb(243, 217, 49);
+}
+
+a:visited{
+    color:rgb(255,255,255);
+}
+
+li a {
+    background-color:rgb(27,27,27);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding:2%;
+}
+li a:hover {
+    background-color:rgb(243, 217, 49);
+    color:rgb(27, 27, 27)
+}
