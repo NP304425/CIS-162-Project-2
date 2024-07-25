@@ -1,7 +1,6 @@
-
 body {
     display:grid;
-    grid-template-rows:15% 10% auto 10%;
+    grid-template-rows:100px 100px auto 10%;
     grid-row-gap:0.5%;
     width:90%;
     font-family: 'Georgia', Times, serif;
@@ -11,6 +10,122 @@ body {
     color:rgb(243, 217, 49);
 }
 
+div#woodpage {
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap:0.5%;
+    grid-template-rows:auto;
+    grid-row-gap:0.5%;
+    align-self: center;
+    text-align: center;
+    padding:5%;
+}
+
+div#item1 {
+    outline: 1px solid yellow;
+}
+
+div#item2 {
+    outline: 1px solid yellow;
+    padding:5px;
+}
+
+div#item3 {
+    outline: 1px solid yellow;
+    padding:5px;
+}
+
+div#item4 {
+    outline: 1px solid yellow;
+}
+
+div#item5 {
+    outline: 1px solid yellow;
+}
+
+div#item6 {
+    outline: 1px solid yellow;
+    padding:5px;
+}
+
+div#item7 {
+    outline: 1px solid yellow;
+    padding:5px;
+}
+
+div#item8 {
+    outline: 1px solid yellow;
+}
+
+div.formRow {
+    display:flex;
+    flex-flow:row wrap;
+    margin:5px;
+}
+
+legend {
+    background-color:rgb(243, 217, 49);
+    color:rgb(27,27,27);
+    padding:3px;
+}
+
+form#survey > fieldset {
+    padding:1%;
+}
+
+textarea {
+    height:100px;
+    width:500px;
+}
+
+div#buttons {
+    text-align:center;
+    width:100%;
+}
+
+input[type='submit'], input[type='reset'] {
+    background-color:rgb(243, 217, 49);
+    font-size:1.1em;
+    padding:1%;
+    margin:2px;
+}
+
+div.gallery {
+    float:left;
+    margin:5px;
+    border: 1px solid yellow;
+    width:45%;
+}
+
+div.gallery img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+.accordion {
+	--bs-accordion-btn-bg: rgb(243, 217, 49);
+	--bs-accordion-active-bg: rgb(243, 217, 49);
+}
+
+.card {
+    background-color:rgb(243, 217, 49);
+    outline:1px solid white;
+}
+
+.card-text {
+    outline:1px solid white;
+}
+
+p > a {
+    color:rgb(255, 255, 255);
+}
 
 h1 {
     text-align:center;
@@ -32,14 +147,21 @@ nav > ul > li {
     grid-row:2;
     font-size:1.2em;
     float:left;
-    width:20%;
+    width:16%;
     outline:1px solid yellow;
+}
+
+ul {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 footer {
     text-align:center;
     grid-row:4;
 }
+
 
 a:link{
     color:rgb(243, 217, 49);
